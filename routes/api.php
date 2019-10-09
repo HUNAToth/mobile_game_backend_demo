@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/','UserController@index');
+//Route::middleware('auth:api')->get('/','UserController@index');
 
 Route::resource('users','UserController');
 Route::post('userdata','UserController@getUserData');
